@@ -96,3 +96,4 @@ async def seed(session: AsyncSession = Depends(get_session)):
         order = Order(client_id=client.id, status=OrderStatus.draft)
         session.add(order)
     return {"seeded": True}
+    
