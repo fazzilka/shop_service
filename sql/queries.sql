@@ -68,4 +68,4 @@ LIMIT 5;
 -- SELECT id AS category_id, root_id, root_name FROM cat_tree;
 -- CREATE INDEX CONCURRENTLY ON reporting.category_to_root(category_id);
 -- CREATE INDEX CONCURRENTLY ON reporting.category_to_root(root_id);
--- и переписать view на join к материализованному представлению.
+-- и переписать view на join к материализованному представлению!
